@@ -1,0 +1,44 @@
+.create-goal {
+    /* display: flex; */
+    background-color: #F3ECED;
+    margin-top: 40px;
+    padding: 20px 20px;
+}
+
+.create-goal-form {
+    text-align: left;
+    line-height: 19px;
+    width: 60%;
+    max-width: 300px;
+}
+
+.create-goal-form input {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.text {
+    text-align: left;
+    line-height: 19px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.text li {
+    margin-top: 10px;
+}
+
+.text li:nth-child(odd) {
+    color:#6F5769;
+}
+
+#task-description {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom: 9px;
+}

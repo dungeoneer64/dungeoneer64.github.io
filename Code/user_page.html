@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&family=Sofia&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="user_page.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="header-left">
+            <h1><a href="./user_page.html">Liszty</a></h1>
+        </div>
+
+        <ul class="header-right">
+            <li><a href="./signed_out.html">Log out</a></li>
+        </ul>
+    </div>
+
+    <div class="main-layout">
+        <div class="main-left">
+            <h1>Welcome, [username]!</h1>
+            <hr> 
+            
+            <p>You can do this! Make sure to drink lots of water and take breaks, and go conquer the world! </p>
+            <a href="./create_goal.html"><input type="button" value="Create new task" class="generic-button" id="newtask"></a>
+            <input type="button" style="margin-top:10px;" value="View all tasks" class="generic-button-gray" id="newtask">
+        </div>
+        <div class="main-right">
+            <h3>Your tasks for today:</h3>
+            <div class="task-box">
+                <div class="task">
+                    <input type="checkbox" class="task-checkbox" name="" id="">
+                    <input type="number" class="task-number" name="" id="" min="0" max="4" value="3"><span class="completed">/4</span>
+                    Do chores
+                    <span class="subtask-button">+</span>
+                </div>
+                <div class="subtask">
+                    <input type="checkbox" class="task-checkbox" checked name="" id="">
+                    Make dinner
+                    <span class="subtask-button">+</span>
+                </div>
+                <div class="subtask">
+                    <input type="checkbox" class="task-checkbox" checked name="" id="">
+                    Do dishes
+                    <span class="subtask-button">+</span>
+                </div>
+                <div class="subtask">
+                    <input type="checkbox" class="task-checkbox" checked name="" id="">
+                    File taxes...
+                    <span class="subtask-button">+</span>
+                </div>
+                <div class="subtask">
+                    <input type="checkbox" class="task-checkbox" name="" id="">
+                    Take class action
+                    <span class="subtask-button">+</span>
+                </div>
+                <div class="task">
+                    <input type="checkbox" class="task-checkbox" checked name="" id="">
+                    Hang out with a friend
+                    <span class="subtask-button">+</span>
+                </div>
+                <div class="task">
+                    <input type="checkbox" class="task-checkbox" name="" id="">
+                    <input type="number" class="task-money" name="" id="" min="0" max="500" value="455"><span class="completed">/500$</span>
+                    Save money!
+                    <span class="subtask-button">+</span>
+                </div>
+            </div>
+
+            You've completed <span class="completed">3/5</span> of your daily goal!
+        </div>
+    </div>
+
+    <!-- Padding for footer -->
+    <div style="height:90px;"></div>
+
+    <div class="footer">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</body>
+</html>

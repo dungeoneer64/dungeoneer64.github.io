@@ -1,0 +1,68 @@
+.signup-flex {
+    /* display: flex; */
+    background-color: #F3ECED;
+    margin-top: 40px;
+    padding: 20px 20px;
+}
+
+.signup-flex hr {
+    margin: 20px 0px;
+    width: 114%;
+    position: relative;
+    left: -7%;
+}
+
+.signup-form {
+    text-align: left;
+    line-height: 19px;
+    width: 60%;
+    max-width: 350px;
+}
+
+.signup-form input {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.address-flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.dropdown select {
+    margin-left: 10px;
+}
+
+#country {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+#address {
+    flex-grow: 3;
+    flex-basis: 100px;
+    flex-shrink: 1;
+}
+
+#zipcode {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 60px;
+}
+
+#bio {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}

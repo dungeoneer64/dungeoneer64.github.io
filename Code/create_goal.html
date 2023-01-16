@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&family=Sofia&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="create_goal.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header-single">
+        <div class="header-left">
+            <h1><a href="./user_page.html">Liszty</a></h1>
+        </div>
+    </div>
+
+    <center>
+        <div class="create-goal">
+            <h2>Create your goal!</h2>
+
+            <div class="text"> 
+                Create your goals using the SMART framework:
+                <ol>
+                    <li>specific - make sure you describe exactly what you're hoping to achieve!</li>
+                    <li>measurable - how will you know when you're done?</li>
+                    <li>assignable - specify who will do the task</li>
+                    <li>realistic - we think this one speaks for itself!</li>
+                    <li>time-related - make sure to set a deadline!</li>
+                </ol>
+            </div>
+
+            <form action="user_page.html" class="create-goal-form">
+                <label for="">
+                    Goal name
+                    <input type="text" name="" id="">
+                </label>
+
+                <label for="">
+                    Description
+                    <textarea name="" id="task-description" cols="30" rows="10"></textarea>
+                </label>
+                
+                <label for="" id="duedate">
+                    Due date
+                    <input type="datetime-local" id="Test_DatetimeLocal">
+                </label>
+
+                <input class="generic-button" id="signup-submit" type="submit" value="Create goal">
+            </form>
+        </div>
+    </center>
+
+    <!-- Padding for footer -->
+    <div style="height:90px;"></div>
+
+    <div class="footer">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</body>
+</html>

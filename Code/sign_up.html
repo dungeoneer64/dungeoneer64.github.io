@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&family=Sofia&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header-single">
+        <div class="header-left">
+            <h1><a href="./signed_out.html">Liszty</a></h1>
+        </div>
+    </div>
+
+    <center>
+        <div class="form-flex">
+            <h2>Sign up for a Liszty account</h2>
+
+            <form action="user_page.html" class="form">
+                
+                <hr>
+
+                <label for="">
+                    Username (ID)
+                    <input type="text" name="" id="">
+                </label>
+
+                <label for="">
+                    Real Name
+                    <input type="text" name="" id="">
+                </label>
+                
+                <label for="" class="dropdown">
+                    Sex
+                    <select name="" id="" value="test">
+                        <option value="none">----</option>
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select>
+                </label>
+
+                <hr>
+
+                <label for="">
+                    Email
+                    <input type="email" name="" id="">
+                </label>
+
+                <label for="">
+                    Password
+                    <input type="password" name="" id="">
+                </label>
+
+                <label for="">
+                    Retype password
+                    <input type="password" name="" id="">
+                </label>
+
+                <hr>
+
+                <label for="">
+                    Country / zipcode / address
+                </label>
+                <div class="address-flex">
+                    <input type="text" name="" id="country">
+                    <input type="text" name="" id="zipcode">
+                    <input type="text" name="" id="address">
+                </div>
+
+                <label for="" class="dropdown">
+                    Interface language
+                    <select name="" id="" value="test">
+                        <option value="none">----</option>
+                        <option value="en">English</option>
+                        <option value="nl">Dutch</option>
+                        <option value="..">...</option>
+                    </select>
+                </label>
+
+                <hr>
+
+                <h4>Please provide a short bio of yourself!</h5>
+
+                <textarea name="" id="bio"rows="10"></textarea>
+
+                <input class="generic-button" id="signup-submit" type="submit" value="Sign up">
+            </form>
+        </div>
+    </center>
+
+    <!-- Padding for footer -->
+    <div style="height:90px;"></div>
+
+    <div class="footer">
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</body>
+</html>
